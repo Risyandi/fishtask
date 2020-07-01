@@ -10,3 +10,9 @@ A repository for task list management (command line app &amp; web app)
 
 **Note :** that the page will reload if you make edits and you will also see any lint errors in the console.
 
+## Dependency
+1. [material-ui/core](https://www.npmjs.com/package/@material-ui/core) and [material-ui/icons](https://www.npmjs.com/package/@material-ui/icons) 
+2. [notistack](https://www.npmjs.com/package/notistack)
+3. [pouchy-store](https://www.npmjs.com/package/pouchy-store)
+4. [prop-types](https://www.npmjs.com/package/prop-types)
+5. [react-router-dom](https://www.npmjs.com/package/react-router-dom)
