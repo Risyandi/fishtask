@@ -42,7 +42,7 @@ export default function DashboardDrawer({ open, onClose, onOpen }) {
 
     return (
         <SwipeableDrawer open={open} onClose={onClose} onOpen={onOpen}>
-            <List subheader={<ListSubheader>Preferences</ListSubheader>}>
+            <List subheader={<ListSubheader>Settings</ListSubheader>}>
                 <ListItem button onClick={() => setFilter(!filter)}>
                 <ListItemIcon>
                     <Switch checked={filter} />
