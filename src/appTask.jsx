@@ -1,8 +1,12 @@
 import React from "react";
+
+// component
 import ErrorWrapper from "./components/element/errrorWrapper";
 import ThemeWrapper from "./components/element/themeWrapper";
 import NotifyWrapper from "./components/element/notifyWrapper";
-import Router from "./components/element/router";
+
+// router
+import Router from "./router/index";
 
 export default function AppTask() {
     return (
