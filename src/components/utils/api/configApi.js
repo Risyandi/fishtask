@@ -1,8 +1,8 @@
 // configuration to couchDB
 export default {
-    couchDBUrl: 'http://13.250.43.79:5984/',
+    couchDBUrl: process.env.REACT_APP_COUCHCDB_URL,
     couchDBAuth: {
-        username: 'admin',
-        password: 'iniadmin',
+        username: process.env.REACT_APP_COUCHDB_USERNAME,
+        password: process.env.REACT_APP_COUCHDB_PASSWORD,
     },
 };
