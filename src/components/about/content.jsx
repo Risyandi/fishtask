@@ -12,12 +12,12 @@ import BoxContainer from "../element/boxContainer";
 export default function aboutContent() {
     const APPVERSION = "0.1";
     const APPNAME = "Fishtask Management";
-    const APPDESCRIPTION = "Simple Task Management Using ReactJS and Pouch Store";
+    const APPDESCRIPTION = "Simple task management using React and integration with database Pouch Store";
     const DEVELOPERS = [
         {
             name: "Risyandi",
             email: "hello@risyandi.com",
-            role: "Software Development Engineer"
+            role: "Software Engineer"
         }
     ];
 

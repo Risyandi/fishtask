@@ -14,7 +14,7 @@ function aboutHeader({ history: { goBack } }) {
                     </IconButton>
                     <GrowTypography variant="h6" color="inherit">
                         About
-          </GrowTypography>
+                    </GrowTypography>
                 </Toolbar>
             </AppBar>
             <Toolbar />
