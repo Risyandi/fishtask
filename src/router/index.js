@@ -8,6 +8,7 @@ import {
 import Homepage from "../components/homepage/index";
 import About from "../components/about/index";
 import Dashboard from "../components/dashboard/index";
+import Pouchy from "../components/pouchy";
 
 const routes = [
     {
@@ -29,6 +30,13 @@ const routes = [
         component: Dashboard,
         exact: true,
         name: 'Dashboard',
+        typeLayout: 'full-layout'
+    },
+    {
+        path: "/pouchy",
+        component: Pouchy,
+        exact: true,
+        name: 'App Pouchy Store',
         typeLayout: 'full-layout'
     }
 ];
