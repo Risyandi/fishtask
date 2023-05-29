@@ -2,9 +2,11 @@
 
 A repository for task list management (command line app & web app).
 
+![fishtask images dashboard](./docs/fishtask.PNG)
+
 ## Requirement
 
-Please use nodejs version 13++
+Please use nodejs version 13++ to run this web application.
 
 ## Get started
 
