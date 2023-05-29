@@ -1,6 +1,6 @@
 import React from "react";
 import { Box, Collapse, LinearProgress } from "@material-ui/core";
-import { get as getOption } from "./options";
+import { get as getOption } from "../utils/localStorage/options";
 
 export default function progressBar({ items = [] }) {
     // List of !deleted items

@@ -11,7 +11,7 @@ import {
     Switch
 } from "@material-ui/core";
 import InfoIcon from "@material-ui/icons/Info";
-import { get as getOption, set as setOption } from "./options";
+import { get as getOption, set as setOption } from "../utils/localStorage/options";
 
 const LISTS = [
     {

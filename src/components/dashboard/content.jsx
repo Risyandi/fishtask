@@ -4,8 +4,8 @@ import BoxContainer from "../element/boxContainer";
 import NewItem from "./newItem";
 import ProgressBar from "./progressBar";
 import TodoList from "./todoList";
-import { create, load, save } from "./items";
-import { get as getOption } from "./options";
+import { create, load, save } from "../utils/localStorage/items";
+import { get as getOption } from "../utils/localStorage/options";
 
 export default function DashboardContent() {
     const [items, setItems] = useState([]);
@@ -17,14 +17,12 @@ export default function DashboardContent() {
         .then(items => items.filter(({ deleted }) => !deleted))
         .then(items => setItems(items))
         .catch(err => {
-            console.error(err);
             enqueueSnackbar(err.message, { variant: "error" });
         });
     }, [enqueueSnackbar]);
 
     useEffect(() => {
         save(items).catch(err => {
-            console.error(err);
             enqueueSnackbar(err.message, { variant: "error" });
         });
     }, [enqueueSnackbar, items, items.length]);
@@ -33,7 +31,6 @@ export default function DashboardContent() {
         create(value)
         .then(item => setItems([...items, item]))
         .catch(err => {
-            console.error(err);
             enqueueSnackbar(err.message, { variant: "error" });
         });
     };

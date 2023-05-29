@@ -14,7 +14,7 @@ import {
 } from "@material-ui/core";
 import CancelIcon from "@material-ui/icons/Cancel";
 import DeleteIcon from "@material-ui/icons/Delete";
-import { get as getOption } from "./options";
+import { get as getOption } from "../utils/localStorage/options";
 
 export default function todoList({
   filter = "",
